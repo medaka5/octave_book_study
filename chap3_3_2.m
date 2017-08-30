@@ -33,7 +33,8 @@ plot(xxx,H, "r")
 
 
 #polyfit使用
-c=polyfit(xx,yy,N);
+#結果同じでした。。。苦労したのに。。
+c=polyfit(xx,yy,N-1);
 yfit=polyval(c,xxx);
 plot(xxx,yfit,"k")
 
