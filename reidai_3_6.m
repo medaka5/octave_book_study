@@ -33,4 +33,12 @@ endfor
 plot(xxx,Hokan)
 
 
+# 同じことをinterpft()つかってやってみる
+z=interpft(yy,N);
+
+plot(xxx,z, "y")
+
+
+
+
 
